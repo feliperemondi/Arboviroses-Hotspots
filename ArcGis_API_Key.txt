@@ -1,0 +1,57 @@
+**Parte 1: Acesso ao Colab e copia das rotinas**
+1.Acesse o Google Colab, autorize o acesso e a vinculação com seu Google Drive.
+
+2.Copie os arquivos da pasta compartilhada para seu Google Drive.
+
+3.Execute o arquivo Análise_de_Gi.ipynb
+
+4.No diretório temporário, transfira os arquivos:
+4.1. ID_MN_RESI.csv
+4.2. ArcGis_API_Key.txt (veja abaixo como obter)
+4.3. Um arquivo DBF para cada ano/município, obtido no SINAN com a exportação dos dados de identificação. Se desejar, antes de carregá-los, abra e exclua as informações pessoais mantendo apenas os campos relacionados ao Endereço de Residência.
+4.4. O arquivo exportado do Google MyMaps com os polígonos territoriais do município (bairro, área de abrangência, malha, localidades, etc.) no formado .kml ou .kmz. Caso o arquivo tenha sido gerado em outro aplicativo (ArcGis, QGis, etc.) basta salva-lo no formato compatível.
+
+**Parte 1: Obter a Chave no ArcGIS Developers**
+1.Acesse o site developers.arcgis.com.
+
+2.Faça login (ou crie uma conta gratuita, se não tiver).
+
+3.No topo da página, clique na aba Dashboard.
+
+4.No lado esquerdo, clique em API Keys.
+
+5.Você verá uma chave padrão (Default API Key) ou pode criar uma nova.
+
+6.Copie a sequência de caracteres longa (geralmente começa com AAP...). Essa é a sua chave.
+
+
+**Parte 2: Criar o Arquivo TXT (No seu computador)**
+7.Abra o Bloco de Notas (Windows) ou Editor de Texto (Mac/Linux).
+
+8.Cole apenas a chave que você copiou (sem espaços extras, sem aspas, sem escrever "Key=" antes).
+
+9.Vá em Salvar Como.
+
+10.No nome do arquivo, digite exatamente: ArcGis_API_Key.txt
+
+Importante: Se houver opção de "Codificação" (Encoding), selecione UTF-8.
+
+11.Salve na sua Área de Trabalho para facilitar.
+
+
+**Parte 3: Carregar no Google Colab (/content)**
+12.Abra seu notebook no Google Colab.
+
+13.No menu vertical à esquerda, clique no ícone de Pasta (📁) para abrir o navegador de arquivos.
+
+14.A pasta que abre automaticamente já é a /content.
+
+15.Arraste o arquivo ArcGis_API_Key.txt do seu computador e solte dentro dessa área de arquivos do Colab.
+
+
+**Parte 4: Carregar demais arquivos no Google Colab (/content)**
+16.Para executar o script desde o início, além do arquivo .txt com a chave do ArcGis você precisará adicionar pasta raíz (/content) os arquivos do SINAN (.dbf) de cada ano, o arquivo ID_MN_RESI.csv e o arquivo geográfico do Google MyMaps (.kml ou .kmz)
+
+17.A execução da rotina em localmente com o arquivo .py poderá requerer alguns ajustes.
+
+18.Após um tempo de inatividade, o Google Colab reinicia o ambiente sendo necessário reiniciar o processamento.
