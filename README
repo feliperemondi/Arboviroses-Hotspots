@@ -10,7 +10,7 @@ Inclui o processamento de bancos de dados do SINAN (dbf), o georreferenciamento 
 
 3.No diretório, salve os arquivos:
 3.1. ID_MN_RESI.csv
-3.2. ArcGis_API_Key.txt (veja abaixo como obter)
+3.2. ArcGis_API_Key.txt (veja no arquivo disponível no repositório como configurar)
 3.3. Um arquivo DBF para cada ano/município, obtido no SINAN com a exportação dos dados de identificação. Se desejar, antes de carregá-los, abra e exclua as informações pessoais mantendo apenas os campos relacionados ao Endereço de Residência.
 3.4. O arquivo exportado do Google MyMaps com os polígonos territoriais do município (bairro, área de abrangência, malha, localidades, etc.) no formado .kml ou .kmz. Caso o arquivo tenha sido gerado em outro aplicativo (ArcGis, QGis, etc.) basta salva-lo no formato compatível.
 
