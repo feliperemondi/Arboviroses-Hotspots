@@ -1,0 +1,3 @@
+**Rotinas disponíveis**
+
+1. Análise de Gi* - inclui o processamento de bancos de dados do SINAN (dbf), o georreferenciamento dos casos por serviço web (ArcGis), vinculação territorial dos casos à partir de arquivo web (kml ou kmz) e análise de hotspots por Getis-Ord (Gi*).
