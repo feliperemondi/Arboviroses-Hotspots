@@ -1,3 +1,17 @@
-**Rotinas disponíveis**
+Análise de Gi*
 
-1. Análise de Gi* - inclui o processamento de bancos de dados do SINAN (dbf), o georreferenciamento dos casos por serviço web (ArcGis), vinculação territorial dos casos à partir de arquivo web (kml ou kmz) e análise de hotspots por Getis-Ord (Gi*).
+Inclui o processamento de bancos de dados do SINAN (dbf), o georreferenciamento dos casos por serviço web (ArcGis), vinculação territorial dos casos à partir de arquivo web (kml ou kmz) e análise de hotspots por Getis-Ord (Gi*).
+
+**Configuração do ambiente**
+
+1.Acesse o Google Colab ou o Python local.
+
+2.Carregue o arquivo Análise_de_Gi.py
+
+3.No diretório, salve os arquivos:
+3.1. ID_MN_RESI.csv
+3.2. ArcGis_API_Key.txt (veja abaixo como obter)
+3.3. Um arquivo DBF para cada ano/município, obtido no SINAN com a exportação dos dados de identificação. Se desejar, antes de carregá-los, abra e exclua as informações pessoais mantendo apenas os campos relacionados ao Endereço de Residência.
+3.4. O arquivo exportado do Google MyMaps com os polígonos territoriais do município (bairro, área de abrangência, malha, localidades, etc.) no formado .kml ou .kmz. Caso o arquivo tenha sido gerado em outro aplicativo (ArcGis, QGis, etc.) basta salva-lo no formato compatível.
+
+4. Inicie o processamento das rotinas conforme blocos.
