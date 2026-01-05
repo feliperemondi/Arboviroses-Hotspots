@@ -15,3 +15,8 @@ Inclui o processamento de bancos de dados do SINAN (dbf), o georreferenciamento 
 3.4. O arquivo exportado do Google MyMaps com os polígonos territoriais do município (bairro, área de abrangência, malha, localidades, etc.) no formado .kml ou .kmz. Caso o arquivo tenha sido gerado em outro aplicativo (ArcGis, QGis, etc.) basta salva-lo no formato compatível.
 
 4. Inicie o processamento das rotinas conforme blocos.
+
+
+**ATENÇÃO**
+
+Os resultados até então apresentados possuem alto grau de semelhança com os realizados diretamente no GeoDa ou ArcGis, contudo em todos os casos foram observadas diferenças. Isso deve ser considerado no momento de validação pela equipe, conforme recomendações do Ministério da Saúde.
